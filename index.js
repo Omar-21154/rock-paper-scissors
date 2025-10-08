@@ -51,11 +51,11 @@ const playGame = (userGuess) => {
   const compGuess = plays[Math.floor(Math.random() * 3)];
   const text = winner[userGuess](compGuess);
   if (userPoints === 9) {
-    alert("Oyun bitdi. Oyuncu qazandi.");
+    alert("The game is over. The player has won.");
     resetGame();
     return;
   } else if (computerPoints === 9) {
-    alert("Oyun bitdi. Komputer qazandi.");
+    alert("The game is over. The AI won.");
 
     resetGame();
     return;
