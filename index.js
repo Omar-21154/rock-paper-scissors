@@ -77,3 +77,4 @@ rock.addEventListener("click", () => playGame("rock"));
 paper.addEventListener("click", () => playGame("paper"));
 scissors.addEventListener("click", () => playGame("scissors"));
 
+// made by Aliyev Omar
