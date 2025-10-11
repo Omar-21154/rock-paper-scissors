@@ -31,6 +31,12 @@
     flex-direction: row;
     gap: 20px;
 }
+.buttons button:hover {
+    background-color: rgb(100, 160, 180);
+    color: white;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
 
 .a {
     color: darkblue;
